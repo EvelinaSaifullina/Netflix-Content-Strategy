@@ -1,0 +1,42 @@
+Все меры вынесены в отдельную таблицу Measures:
+
+➡️ % Movies = 
+DIVIDE(
+    CALCULATE([Total Titles], netflix_titles[type] = "Movie"),
+    [Total Titles]
+)
+
+➡️ % TV Shows = 
+DIVIDE(
+    CALCULATE([Total Titles], netflix_titles[type] = "TV Show"),
+    [Total Titles]
+)
+
+➡️ Объём по странам = 
+CALCULATE(
+    COUNTROWS(netflix_titles),
+    countries
+)
+
+➡️ Avg Release Year = AVERAGE(netflix_titles[release_year])
+
+➡️ Peak Adding Year = 
+MAXX(
+    TOPN(
+        1,
+        ADDCOLUMNS(
+            VALUES(netflix_titles[Year Added]),
+            "Count", CALCULATE([Total Titles])
+        ),
+        [Count], DESC
+    ),
+    netflix_titles[Year Added]
+)
+
+➡️ Titles by Year = 
+CALCULATE(
+    [Total Titles],
+    YEAR(netflix_titles[date_added]) = SELECTEDVALUE('Year'[Year])
+)
+
+➡️ Total Titles = COUNTROWS(netflix_titles)
