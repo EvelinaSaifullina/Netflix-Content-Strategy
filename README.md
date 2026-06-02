@@ -11,9 +11,10 @@
 - Определить целевую аудиторию по рейтингам
 
 ## 📁 Данные
-Источник: Kaggle — Netflix Movies and TV Shows
-Объём: 8 070 записей
-Период: 2010–2021
+* Источник: Kaggle — Netflix Movies and TV Shows
+* Объём: 8 070 записей
+* Период: 2010–2021
+* Ссылка: 
 https://github.com/EvelinaSaifullina/Netflix-Content-Strategy/tree/f5ce2fd49a50d1e25347dc3836dbf2606b08d9b5/%D0%94%D0%B0%D1%82%D0%B0%D1%81%D0%B5%D1%82
 
 ## 🛠️ Этапы работы
@@ -54,6 +55,6 @@ PG-13	   ~15%
 
 ## 🧰 Используемые инструменты
 
-Power Query Editor	 -  Очистка, нормализация стран, разворот строк
-DAX (Power BI)	     -  Создание мер (KPI, фильтры, агрегации)
-Power BI Desktop	   -  Визуализации, связи, фильтры, дашборд
+- Power Query Editor	 -  Очистка, нормализация стран, разворот строк
+- DAX (Power BI)	     -  Создание мер (KPI, фильтры, агрегации)
+- Power BI Desktop	   -  Визуализации, связи, фильтры, дашборд
