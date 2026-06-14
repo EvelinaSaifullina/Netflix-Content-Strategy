@@ -17,6 +17,9 @@
 * Ссылка: 
 https://github.com/EvelinaSaifullina/Netflix-Content-Strategy/tree/f5ce2fd49a50d1e25347dc3836dbf2606b08d9b5/%D0%94%D0%B0%D1%82%D0%B0%D1%81%D0%B5%D1%82
 
+<img width="876" height="479" alt="image" src="https://github.com/user-attachments/assets/e6118969-f072-43e8-a0e1-a5c6bb733234" />
+
+
 ## 🛠️ Этапы работы
 1. Очистка и трансформация данных (Power Query)
 
